@@ -1,0 +1,75 @@
+﻿.layout_body {
+    background-color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.col-4 .text-center {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+
+.blog-header-logo .text-dark {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+}
+
+#BlogM_title {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.col-4 {
+    padding-left: 40%;
+    font-family: 'Playfair Display', serif;
+    
+    font-size: 40px;
+}
+
+.mb-0 {
+    font-family: 'Playfair Display', serif;
+}
+.nav-1 {
+    font-size: 17px;
+    color: grey;
+}
+
+.text-dark {
+    font-family: 'Playfair Display', serif;
+}
+
+col-4 .d-flex .justify-content-end .align-items-center {
+    padding-right: 10px;
+}
+
+.row .flex-nowrap .justify-content-between .align-items-center {
+    padding-left: 115px;
+}
+
+#signbutton {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    padding-top: 7px;
+}
+
+.creation_body_input {
+    width: 50%;
+}
+
+.text-muted{
+    margin-right:50px;
+}
+
+.form-control .ds-input {
+    width: 100px;
+}
+
+.nav-scroller py-1 mb-2{
+    padding-left: 5px;
+    padding-right: 5px;
+}

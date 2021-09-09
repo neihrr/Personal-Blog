@@ -1,0 +1,27 @@
+﻿@model BlogMVC.ViewModels.LogInViewModel
+
+@{
+
+}
+<head>
+   
+    <link rel="stylesheet" href="~/css/css2.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<form asp-controller="Auth" asp-action="Login" method="post">
+
+    <label>User Name</label>
+    <input asp-for="UserName" />
+
+    <label>Password</label>
+    <input asp-for="Password" />
+
+    
+    
+    <input type="submit" value="Sign In" />
+
+   
+
+
+</form>

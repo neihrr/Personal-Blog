@@ -1,0 +1,21 @@
+﻿.blog-header-logo.text-dark {
+    font-family: 'Kaisei Opti', serif;
+}
+.blog-header {
+    border-bottom: 1px solid #e5e5e5;
+    font-family: 'Kaisei Opti', serif;
+    line-height: 1;
+}
+.blog-header.py-3{
+    margin-bottom: 5px;
+}
+
+.nav-scroller.py-1.mb-2{
+    margin-top: 5px;
+}
+
+#testid {
+    font-size: 36px;
+    background-color: aqua;
+}
+

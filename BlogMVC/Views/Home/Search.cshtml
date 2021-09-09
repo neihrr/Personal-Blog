@@ -1,0 +1,33 @@
+﻿@model List<BlogMVC.Data.Content>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/css2.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+
+
+<div>
+    @if (@Model == null)
+    {
+        <h2>Entry not found</h2>
+    }
+
+    else{
+
+        @foreach (var content in Model)
+        {
+            <h2>@content.Title</h2>
+        }
+
+    }
+</div>
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+﻿@model BlogMVC.Data.Content
+
+@{ ViewData["Title"] = "Home Page";}
+
+<head>
+    <link rel="stylesheet" href="~/css/css2.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<div>
+    <form asp-controller="Home" asp-action="Edit" method="Post">
+        <div class="row">
+            <div class="col-md-8">
+                <div>
+                    <label class="form-label">Title</label>
+                    <input class="form-control" value="@(Model.Title != "" ? Model.Title : "")" type="text" name="Title" />
+                </div>
+
+                <div>
+                    <label class="form-label">Genre</label>
+                    <input class="form-control" value="@(Model.Genre != "" ? Model.Genre : "")" type="text" name="Genre" />
+                </div>
+
+
+                <div >
+                    <label class="form-label">Body</label>
+                    <input class="form-control" value="@(Model.Body != "" ? Model.Body : "")" type="text" name="Body" />
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        <input type="submit" value="submit" style="margin-top:10px;" />
+    </form>
+</div>
